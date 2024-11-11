@@ -1,0 +1,120 @@
+//// 1 task
+//Console.WriteLine("Enter your name");
+//var name = Console.ReadLine();
+//Console.WriteLine($"Hello: {name}");
+
+//// 2 task
+//Console.WriteLine("Enter a string");
+//var text = Console.ReadLine();
+//Console.WriteLine("Enter another string");
+//var letter = Console.ReadLine();
+//var result = String.Concat(text ,letter , letter , text);
+//Console.WriteLine($"Result : {result}");
+
+//// 3 task
+//Console.WriteLine("Enter a str");
+//var str = Console.ReadLine();
+//Console.WriteLine("Enter second letter");
+//var another = Console.ReadLine();
+//var first = str.Substring(0, 2);
+//var last = str.Substring(2);
+//if (str.Length == 4)
+//{
+//    Console.WriteLine(first + another + last);
+//}
+//else
+//{
+//    Console.WriteLine("Error text more than 4 latters");
+//}
+
+//// 4 task
+//Console.WriteLine("enter a text");
+//var text = Console.ReadLine();
+//var two = text.Substring(text.Length - 2);
+//Console.WriteLine($"Result : {two}{two}{two}");
+
+//// 5 task
+//Console.WriteLine("Enter a text");
+//var letter = Console.ReadLine();
+//var twice = letter.Substring(0, 2);
+//Console.WriteLine(twice);
+
+//// 6 task
+//Console.WriteLine("enter a text in even size");
+//var even = Console.ReadLine();
+//if(even.Length % 2 == 0)
+//{
+//    var result = even.Substring(0, even.Length / 2);
+//    Console.WriteLine(result);
+//}
+
+//// 7 task
+//Console.WriteLine("enter a text");
+//var text = Console.ReadLine();
+//var result = text.Substring(1, text.Length - 2);
+//Console.WriteLine($"Result : {result}");
+
+//// 8 task
+//Console.WriteLine("Enter a string");
+//var shorts = Console.ReadLine();
+//var longs = Console.ReadLine();
+//var shl = shorts.Length;
+//var ll = longs.Length;
+//if( shl < ll)
+//{
+//    Console.WriteLine($"{shorts}{longs}{shorts}");
+//}
+
+//// 9 task
+//Console.WriteLine("Enetr a text");
+//var delate = Console.ReadLine();
+//var without = delate.Remove(0, 1);
+//Console.WriteLine("Enetr a text");
+//var delate2 = Console.ReadLine();
+//var seconddel = delate2.Remove(0, 1);
+//Console.WriteLine($"Result : {without}{seconddel}");
+
+//// 10 task
+//Console.WriteLine("enter a text");
+//var reverse1= Console.ReadLine();
+//var twice = reverse1.Substring(0, 2);
+//var lasttwice = reverse1.Substring(2);
+//var result = lasttwice +  twice;
+//Console.WriteLine(result);
+
+//// 12 task
+//Console.WriteLine("Enter a text");
+//var text = Console.ReadLine();
+//Console.WriteLine("enter a number");
+//int randomN = Convert.ToInt32(randomN);
+//var first = text.Substring(0, randomN);
+//var last = text.Substring(text.Length - randomN);
+//Console.WriteLine($"{first}{last}");
+
+//// 13 task
+//Console.WriteLine("Give a text in odd size");
+//var odd = Console.ReadLine();
+//var res = odd.Substring(odd.Length / 2 - 1, 3);
+//Console.WriteLine(res);
+
+//// 14 task
+//Console.WriteLine("enter a text");
+//var str = Console.ReadLine();
+//Console.WriteLine("enter second text");
+//var str2 = Console.ReadLine();
+//var lastel = str.Length - 1;
+//var last = str2[0];
+//var firstel = str[lastel];
+//if (firstel == last)
+//{
+//    var res = str2.Remove(0, 1);
+//    Console.WriteLine($"{str}{res}");
+//}
+
+// 15 task 
+Console.WriteLine("give a text");
+var text = Console.ReadLine();
+var fchar = text.Substring(text.Length -1);
+var lchar = text.Substring(text.Length-2,1);
+var delete = text.Remove(text.Length - 2);
+Console.WriteLine($"{delete}{fchar}{lchar}");
